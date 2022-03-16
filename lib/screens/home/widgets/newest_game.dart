@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:game_store_app/constants/colors.dart';
 import 'package:game_store_app/models/game.dart';
 
 class NewestGame extends StatelessWidget {
@@ -30,11 +31,21 @@ class NewestGame extends StatelessWidget {
                 children: [
                   Text(e.name,style: TextStyle(fontSize: 18,fontWeight: FontWeight.bold),),
                   SizedBox(height: 5,),
-                   Text(e.type,style: TextStyle(fontSize: 18,color: Colors.grey.withOpacity(0.3)),),
+                   Text(e.type,style: TextStyle(fontSize: 16,color: Colors.grey.withOpacity(0.5)),),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       _buildStar(),
+                      Container(
+                        padding: EdgeInsets.symmetric(vertical: 5,horizontal: 20),
+                        decoration: BoxDecoration(
+                          color: kPrimaryColor,
+                          borderRadius: BorderRadius.circular(15),
+                          
+
+                        ),
+                        child: Text('Install',style: TextStyle(color: Colors.white),),
+                      )
                       
                     ],
 
@@ -63,7 +74,7 @@ class NewestGame extends StatelessWidget {
     ];
 
     return Row(
-      children: color.map((e) => Icon(Icons.star,color: e,)).toList(),
+      children: color.map((e) => Icon(Icons.star,color: e,size: 15,)).toList(),
     );
 
   }
