@@ -37,7 +37,7 @@ class Game {
             "assets/images/ori3.jpg"
           ]),
       Game(
-          bgImg: "assets/images/ori1.jpg",
+          bgImg: "assets/images/ori2.jpg",
           icon: "assets/images/ori_logo.jpg",
           name: "Ori and the Blind Forest",
           type: "Adventure",
@@ -51,7 +51,7 @@ class Game {
             "assets/images/ori3.jpg"
           ]),
       Game(
-          bgImg: "assets/images/ori1.jpg",
+          bgImg: "assets/images/ori3.jpg",
           icon: "assets/images/ori_logo.jpg",
           name: "Ori and the Blind Forest",
           type: "Adventure",

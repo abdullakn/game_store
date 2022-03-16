@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:game_store_app/screens/home/widgets/popular_games.dart';
 
 class CategoryGame extends StatelessWidget {
   CategoryGame({Key? key}) : super(key: key);
@@ -65,7 +66,9 @@ class CategoryGame extends StatelessWidget {
                     ),
                 itemCount: category_list.length),
           ),
-          _buildHeading('Popular Game')
+          _buildHeading('Popular Game'),
+          SizedBox(height: 20,),
+          PopularGames()
         ],
       ),
     );
