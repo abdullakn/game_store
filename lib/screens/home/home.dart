@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:game_store_app/constants/colors.dart';
+import 'package:game_store_app/screens/home/widgets/category.dart';
 import 'package:game_store_app/screens/home/widgets/header.dart';
 import 'package:game_store_app/screens/home/widgets/search.dart';
 
@@ -36,7 +37,8 @@ class HomePage extends StatelessWidget {
           Column(
             children: [
               Header(),
-              Seacrh()
+              Seacrh(),
+              CategoryGame()
 
             ],
           )
