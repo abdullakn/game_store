@@ -24,7 +24,7 @@ class Game {
     return [
       Game(
           bgImg: "assets/images/ori1.jpg",
-          icon: "assets/images/ori_logo.jpg",
+          icon: "assets/images/ori_logo.png",
           name: "Ori and the Blind Forest",
           type: "Adventure",
           score: 4.5,
@@ -38,7 +38,7 @@ class Game {
           ]),
       Game(
           bgImg: "assets/images/ori2.jpg",
-          icon: "assets/images/ori_logo.jpg",
+          icon: "assets/images/ori_logo.png",
           name: "Ori and the Blind Forest",
           type: "Adventure",
           score: 4.5,
@@ -52,7 +52,7 @@ class Game {
           ]),
       Game(
           bgImg: "assets/images/ori3.jpg",
-          icon: "assets/images/ori_logo.jpg",
+          icon: "assets/images/ori_logo.png",
           name: "Ori and the Blind Forest",
           type: "Adventure",
           score: 4.5,

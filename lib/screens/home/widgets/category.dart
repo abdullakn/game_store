@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:game_store_app/screens/home/widgets/newest_game.dart';
 import 'package:game_store_app/screens/home/widgets/popular_games.dart';
 
 class CategoryGame extends StatelessWidget {
@@ -68,7 +69,10 @@ class CategoryGame extends StatelessWidget {
           ),
           _buildHeading('Popular Game'),
           SizedBox(height: 20,),
-          PopularGames()
+          PopularGames(),
+           SizedBox(height: 20,),
+            _buildHeading('Newest Game'),
+            NewestGame()
         ],
       ),
     );
