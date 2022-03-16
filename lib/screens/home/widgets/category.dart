@@ -64,9 +64,21 @@ class CategoryGame extends StatelessWidget {
                       width: 33,
                     ),
                 itemCount: category_list.length),
-          )
+          ),
+          _buildHeading('Popular Game')
         ],
       ),
     );
+  }
+
+  Widget _buildHeading(String text){
+    return Container(
+      padding: EdgeInsets.symmetric(horizontal: 25),
+      width: double.maxFinite,
+      child: Text(text,style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20),),
+
+    );
+
+
   }
 }
