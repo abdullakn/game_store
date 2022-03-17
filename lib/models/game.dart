@@ -30,7 +30,7 @@ class Game {
           score: 4.5,
           downloads: 354,
           review: 200,
-          desc: "The beautiful game, every kids should play this once",
+          desc: "The beautiful game, every kids should play this once.Ori and the Blind Forest is a platform-adventure Metroidvania video game developed by Moon Studios and published by Microsoft Studios. The game was released for Xbox One and Microsoft Windows in March 2015, and for Nintendo Switch in September 2019.",
           imgs: [
             "assets/images/ori1.jpg",
             "assets/images/ori2.jpg",
