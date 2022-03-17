@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:game_store_app/models/game.dart';
+import 'package:game_store_app/screens/details/widgets/game_gallery.dart';
 import 'package:game_store_app/screens/details/widgets/game_info_header.dart';
 
 class GameInfo extends StatelessWidget {
@@ -12,7 +13,8 @@ class GameInfo extends StatelessWidget {
       color: Colors.white,
       child: Column(
         children: [
-          GameInfoHeader(game: game)
+          GameInfoHeader(game: game),
+          GameGallery(game: game)
         ],
       ),
       
